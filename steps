@@ -1,0 +1,5 @@
+user searches for a city
+    -click event for selector on search button
+    -add the searched cities into a history array which appends the city of i=[0] 
+the new city data is loaded along with its 5 day forecast
+the previous city is appended in the History section
