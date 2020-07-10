@@ -6,8 +6,12 @@ main {
   margin: 0 30px;
 }
 
-.search-panel {
-  /* background-color: lightgray; */
+#search-label {
+  margin-right: 8px;
+}
+
+#search-bar {
+  margin-right: 8px;
 }
 
 .history-section {
@@ -16,5 +20,15 @@ main {
 
 .weather-icon {
   height: 50px;
+  width: 50px;
+}
+
+.weather-forecast {
+  margin-top: 40px;
+}
+
+#weather-icon-div {
+  display: inline-block;
+  background-color: #007bff;
   width: 50px;
 }
