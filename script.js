@@ -106,25 +106,25 @@ function updateData(data) {
 
     //5-day forecast
 
-    var day1 = getCityData(weatherData[9]);
+    var day1 = getCityData(weatherData[14]);
     $("#date-1").text(day1.date);
     $("#temp-1").text(day1.temperature);
     $("#humidity-1").text(day1.humidity);
     $("#city-icon-1").attr("src", day1.iconURL);
 
-    var day2 = getCityData(weatherData[17]);
+    var day2 = getCityData(weatherData[22]);
     $("#date-2").text(day2.date);
     $("#temp-2").text(day2.temperature);
     $("#humidity-2").text(day2.humidity);
     $("#city-icon-2").attr("src", day2.iconURL);
 
-    var day3 = getCityData(weatherData[25]);
+    var day3 = getCityData(weatherData[30]);
     $("#date-3").text(day3.date);
     $("#temp-3").text(day3.temperature);
     $("#humidity-3").text(day3.humidity);
     $("#city-icon-3").attr("src", day3.iconURL);
 
-    var day4 = getCityData(weatherData[33]);
+    var day4 = getCityData(weatherData[38]);
     $("#date-4").text(day4.date);
     $("#temp-4").text(day4.temperature);
     $("#humidity-4").text(day4.humidity);
